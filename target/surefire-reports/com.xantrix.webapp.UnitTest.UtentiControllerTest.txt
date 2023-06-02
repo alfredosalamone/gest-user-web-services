@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.xantrix.webapp.UnitTest.UtentiControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 2.93 s <<< FAILURE! - in com.xantrix.webapp.UnitTest.UtentiControllerTest
+testInsUtente1  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
+testGetUserByUserId  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
+testInsUtente2  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
+testGetAllUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
+testDelUtente1  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
+testDelUtente2  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.xantrix.webapp.controller.UtentiController] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a]
+Caused by: java.lang.NoClassDefFoundError: com/xantrix/webapp/exception/NotFoundException
+Caused by: java.lang.ClassNotFoundException: com.xantrix.webapp.exception.NotFoundException
+
